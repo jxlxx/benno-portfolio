@@ -2,7 +2,7 @@
 html{
   background-color:#fafafa;
   font-family: 'Roboto', sans-serif;
-  overflow:hidden
+  overflow: hidden;
 }
 
 
@@ -10,12 +10,12 @@ h1 a {
   color:#1a1a1a;  
   opacity: 0.85; 
   font-weight: 900;
-  font-size: 12rem;
+  font-size: 14vh;
   transition: 200ms;    
 }
 
 h1 a:hover {
-  color:#1a1a1a;  
+  color:#252525;  
   opacity: 1;
 }  
 
@@ -23,12 +23,11 @@ a {
   color:#1a1a1a;
   cursor:pointer;
   text-decoration:none;
-  font-size: 2rem;
+  font-size: 2vh;
 }
 
 
 .content {
-
   text-align: center;
 
   .link {
@@ -39,7 +38,7 @@ a {
   }
 
   .name {
-    margin-top: 20vh;
+    margin-top: 31vh;
   }
 
   .link-box {
