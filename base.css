@@ -5,6 +5,12 @@ html{
   overflow: hidden;
 }
 
+.header {
+  display: block;
+  width: 100%;
+  height: 30vh;
+  height: calc(var(--vh, 1vh) * 30)
+}
 
 h1 a {
   color:#1a1a1a;  
@@ -26,33 +32,37 @@ a {
   font-size: 2vh;
 }
 
-
 .content {
   text-align: center;
+}
 
-  .link {
-    color:#1a1a1a;  
-    font-family:  "Roboto", "Helvetica Neue", sans-serif !important;
-    font-weight: 100;
-    padding: 0.3em 1em 0.3em 1em;
-  }
-
-  .name {
-    margin-top: 31vh;
-  }
-
-  .link-box {
-    position: relative;
-    bottom: -40vh;
-  }
+.link {
+  color:#1a1a1a;  
+  font-family:  "Roboto", "Helvetica Neue", sans-serif !important;
+  font-weight: 100;
+  padding: 0.3em 1em 0.3em 1em;
 }
 
 
-@media screen and (max-device-width: 800px) {
+.link-box {
+  position: relative;
+  bottom: -35vh;
+  bottom: calc(var(--vh, 1vh) * -35)
+}
 
+@media screen and (max-device-width: 800px) {
   a.link {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     display: block;
+  }
+
+  .name a {
+    font-size: 4em;
+  }
+  
+  .link-box {
+    bottom: -15vh;
+    bottom: calc(var(--vh, 1vh) * -15)
   }
 }
 
